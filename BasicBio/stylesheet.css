@@ -1,35 +1,41 @@
 header {
+    display: flex;
+    flex-direction: row;
     top: 0;
     left: 0;
-    margin: 30px 100%;
-    border: 0;
-    padding: px;
     width: 960px;
     background-color: #ffffff;
     border-color: #cccccc;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    justify-content: center
 }
 
 .name {
     margin: 0;
     border: 0;
-    padding: 30px;
+    width: 100px;
+    padding: 20px;
     color: #ffffff;
     background-color: #4aaaa5;
+    justify-content: flex-start;
 }
 
 .about {
+    margin: 20px;
     color: #777777;
+    justify-content: flex-end; 
 }
 
 .portfolio {
+    margin: 20px;
     color: #777777;
+    justify-content: right;
 }
 
 .contact {
+    margin: 20px;
     color: #777777;
+    justify-content: right;
 }
 
 body {
@@ -41,9 +47,12 @@ body {
 }
 
 h2 {
-    content
     border: 0px 0px 10px 0px;
-    border-bottom: #777777;
+    border-bottom-color: #777777;
+}
+
+section {
+    font-size: 1em;
 }
 
 #bio-pic {
