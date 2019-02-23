@@ -38,8 +38,15 @@ header {
     justify-content: right;
 }
 
+h2 {
+    color: #4aaaa5;
+}
+
 body {
     width: 960px;
+    padding: 40px;
+    margin: 0px;
+    background-position: center;
     color: #777777;
     background-color: #ffffff;
     border-color: #dddddd;
@@ -63,8 +70,20 @@ footer {
     color: black;
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
+    text-align: center;
+    background-position: bottom
 }
 
+.box {
+    display: flex;
+    flex-flow: wrap;
 
+}
+
+.pic-title {
+    
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
 
 
