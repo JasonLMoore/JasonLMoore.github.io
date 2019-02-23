@@ -1,9 +1,5 @@
 header {
-    display: flex;
-    flex-direction: row;
-    top: 0;
-    left: 0;
-    width: 960px;
+    z-index: 99;
     background-color: #ffffff;
     border-color: #cccccc;
     text-align: center;
@@ -43,10 +39,6 @@ h2 {
 }
 
 body {
-    width: 960px;
-    padding: 40px;
-    margin: 0px;
-    background-position: center;
     color: #777777;
     background-color: #ffffff;
     border-color: #dddddd;
@@ -58,8 +50,16 @@ h2 {
     border-bottom-color: #777777;
 }
 
+p {
+    font-size: 16px;
+}
+
 section {
     font-size: 1em;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
 }
 
 #bio-pic {
