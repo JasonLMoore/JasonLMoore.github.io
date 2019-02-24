@@ -1,3 +1,4 @@
+/* Header for all 3 pages begins */
 header {
     overflow: hidden;
     z-index: 99;
@@ -42,8 +43,8 @@ header {
     text-align: center;
     color: #777777;
 }
-
-
+/* ends */
+/* body for all 3 pages */
 .wrapper {
     margin: 50%, 0;
     align-content: center;
@@ -67,7 +68,8 @@ h2 {
     clear: both;
     font-size: 25px;
 }
-
+/* ends */
+/* Bio-About */
 p {
     font-size: 16px;
     line-height: 25px;
@@ -84,7 +86,9 @@ section {
     float: left;
     padding: 10px 10px 0px 0px;
 }
+/* ends */
 
+/* footer for all 3 */
 footer {
     position: fixed;
     left: 0;
@@ -94,19 +98,125 @@ footer {
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
     text-align: center;
+    z-index: 99;
     
 }
-
-.box {
-    display: flex;
-    flex-flow: wrap;
-
+/* ends */
+/* Bio-Contact */
+form {
+    text-align: center
 }
 
-.pic-title {
-    
+.form-name {
+    width: 100%;
+    line-height: 30px;
+}
+
+.form-email {
+    width: 100%;
+    line-height: 30px;
+}
+
+.form-message {
+    width: 100%;
+    line-height: 30px;
+}
+/* ends */
+
+.pic-grid-container {
+    display: inline-grid;
+    column-gap: 180px;
+    row-gap: 50px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.grid-item {
+    width: 200px;
+}
+
+#hangman-pic {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#rpg-pic {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#trivia-pic {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#info-pic {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+#rps-pic {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.text-grid-container {
+    display: inline-grid;
+    column-gap: 180px;
+    row-gap: 50px;
+    position: absolute;
+    z-index: 99;
+}
+
+.grid-item2 {
+    margin: 140px 0px 15px;
+    height: 25px;
+    width: 150px;
+    padding: 10px 25px;
+    text-align: center;
     color: #ffffff;
     background-color: #4aaaa5;
 }
 
+#hangman {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#rpg {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#trivia {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#ingo-widget {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#rps {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
 
